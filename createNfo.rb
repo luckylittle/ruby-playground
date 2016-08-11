@@ -35,9 +35,15 @@ rls=File.open(old_filename).read
   nfofile = dirname.chomp.downcase + ".nfo"
   out_file = File.new(nfofile,"w")
   out_file.puts <<-eos
+<<<<<<< HEAD
 Released on: #{timenow} [UTC]\r
 Release name: #{release}
 eos
+=======
+  Released on: #{timenow} [UTC]
+  Release name: #{release}
+  eos
+>>>>>>> 35dea38a0d589ebb3820055f7283833dbace54e4
   out_file.close
 
   # Move NFO to the release directory
