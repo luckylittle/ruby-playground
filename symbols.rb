@@ -10,15 +10,15 @@ Print email address of that user
 users = [
   {
   name: 'Lucian',
-  email: 'lucky@senior.cz',
+  email: '<REMOVED>',
     },
   {
   name: 'Alvaro',
-  email: 'alvaro@senior.com',
+  email: '<REMOVED>',
     },
   {
   name: 'Arnold',
-  email: 'arnold@senior.ph',
+  email: '<REMOVED>',
     }
 ]
 
